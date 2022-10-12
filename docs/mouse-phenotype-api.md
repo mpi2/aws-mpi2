@@ -509,53 +509,53 @@ Response datatype: JSON Object
   ],
   "targetingVectorProducts": [
     {
-      "designOligos": "",
+      "designOligos": null,
       "targetingVector": "PRPGS00073_A_H01",
       "cassette": "L1L2_Bact_P",
       "backbone": "L3L4_pD223_DTA_spec",
       "ikmcProject": 41713,
-      "genbankFile": "",
-      "vectorMap": "",
+      "genbankFile": null,
+      "vectorMap": null,
       "order": "https://www.eummcr.org/order?add=MGI:1929293&material=es_cells"
     },
     {
-      "designOligos": "",
+      "designOligos": null,
       "targetingVector": "PG00073_Z_5_H01",
       "cassette": "L1L2_Bact_P",
       "backbone": "L3L4_pD223_DTA_spec",
       "ikmcProject": 41713,
-      "genbankFile": "",
-      "vectorMap": "",
+      "genbankFile": null,
+      "vectorMap": null,
       "order": "https://www.eummcr.org/order?add=MGI:1929293&material=es_cells"
     },
     {
-      "designOligos": "",
+      "designOligos": null,
       "targetingVector": "PG00073_Z_3_H01",
       "cassette": "L1L2_Bact_P",
       "backbone": "L3L4_pD223_DTA_spec",
       "ikmcProject": 41713,
-      "genbankFile": "",
-      "vectorMap": "",
+      "genbankFile": null,
+      "vectorMap": null,
       "order": "https://www.eummcr.org/order?add=MGI:1929293&material=es_cells"
     },
     {
-      "designOligos": "",
+      "designOligos": null,
       "targetingVector": "PG00073_Z_6_H01",
       "cassette": "L1L2_Bact_P",
       "backbone": "L3L4_pD223_DTA_spec",
       "ikmcProject": 41713,
-      "genbankFile": "",
-      "vectorMap": "",
+      "genbankFile": null,
+      "vectorMap": null,
       "order": "https://www.eummcr.org/order?add=MGI:1929293&material=es_cells"
     },
     {
-      "designOligos": "",
+      "designOligos": null,
       "targetingVector": "PG00073_Z_7_H01",
       "cassette": "L1L2_Bact_P",
       "backbone": "L3L4_pD223_DTA_spec",
       "ikmcProject": 41713,
-      "genbankFile": "",
-      "vectorMap": "",
+      "genbankFile": null,
+      "vectorMap": null,
       "order": "https://www.eummcr.org/order?add=MGI:1929293&material=es_cells"
     }
   ]
