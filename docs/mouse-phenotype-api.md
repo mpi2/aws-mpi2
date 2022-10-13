@@ -357,11 +357,11 @@ Response datatype: JSON Array<JSON Object>
 
 - mgiGeneAccessionId **ADDED**
 
-### Gene Publications Service
+### Gene Order Service
 
-Request pattern: /genes/<**mgiGeneAccessionId**>/publications
+Request pattern: /genes/<**mgiGeneAccessionId**>/order
 
-Request example: GET /genes/MGI:1929293/publications
+Request example: GET /genes/MGI:1929293/order
 
 Response datatype: JSON Array<JSON Object>
 
