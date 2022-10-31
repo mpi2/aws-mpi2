@@ -21,8 +21,8 @@ Response datatype: JSON Object.
   "synonyms": ["calcium binding protein Kip2", "2810434I23Rik"],
   "humanGeneSymbols": ["CIB2"],
   "humanSymbolSynonyms": ["USH1J", "KIP2", "DFNB48"],
-  "productionCenters": ["MRC Harwell"],
-  "phenotypingCenters": ["MRC Harwell"],
+  "productionCentres": ["MRC Harwell"],
+  "phenotypingCentres": ["MRC Harwell"],
   "alleleNames": [
     "targeted mutation 1a, Wellcome Trust Sanger Institute",
     "targeted mutation 1c, Wellcome Trust Sanger Institute",
@@ -88,8 +88,8 @@ Response datatype: JSON Object.
 - geneAccessionId -> mgiGeneAccessionId
 - humanGeneSymbol -> humanGeneSymbols
 - humanSymbolSynonym -> humanSymbolSynonyms
-- productionCentre -> productionCenters
-- phenotypingCentre -> phenotypingCenters
+- productionCentre -> productionCentres
+- phenotypingCentre -> phenotypingCentres
 - alleleName -> alleleNames
 - ensemblGeneId -> ensemblGeneIds
 - ccdsIds **DELETED**
