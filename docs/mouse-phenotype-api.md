@@ -384,6 +384,43 @@ Response datatype: JSON Array<JSON Object>
 - mgiGeneAccessionId **ADDED**
 - alleleMapUrl **ADDED**
 
+### Gene Search Service
+
+Request pattern: /search/genes
+
+Request example: GET /search/genes
+
+Response datatype: JSON Array
+
+```json
+[
+  {
+    "mgiGeneAccessionId": "MGI:1333864",
+    "geneName": "mitochondrial ribosomal protein L14",
+    "geneSymbol": "Mrpl14",
+    "synonyms": ["Rpml32", "MRP-L32", "1110006I11Rik"],
+    "humanGeneSymbols": ["MRPL14"],
+    "humanSymbolSynonyms": ["MRP-L32", "RPML32"],
+    "esCellProductionStatus": null,
+    "mouseProductionStatus": null,
+    "phenotypeStatus": null,
+    "phenotypingDataAvailable": false
+  },
+  {
+    "mgiGeneAccessionId": "MGI:2442934",
+    "geneName": "membrane integral NOTCH2 associated receptor 2",
+    "geneSymbol": "Minar2",
+    "synonyms": ["A730017C20Rik"],
+    "humanGeneSymbols": ["MINAR2"],
+    "humanSymbolSynonyms": ["KIAA1024L"],
+    "esCellProductionStatus": "ES Cells Produced",
+    "mouseProductionStatus": "Mice Produced",
+    "phenotypeStatus": "Phenotyping finished",
+    "phenotypingDataAvailable": true
+  }
+]
+```
+
 ## Allele Services
 
 ### Allele Products Service
