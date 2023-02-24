@@ -771,3 +771,143 @@ Response datatype: JSON Object
 ## Image Services
 
 ## Data Services
+
+### Statistical Results Metadata Service
+
+Request pattern: /datasets/<**datasetId**>/
+
+Request example: GET /datasets/4c8064a66319bd31b365c587261ac70c/
+
+Response datatype: JSON Object
+
+#### Example
+
+```json
+{
+	"statisticalResultId": "17a32770bca0b39aafafe4ddd621228f",
+	"strainAccessionId": "MGI:2159965",
+	"strainName": "C57BL/6N",
+	"geneticBackground": "involves: C57BL/6N",
+	"colonyId": "MDZE",
+	"mgiGeneAccessionId": "MGI:1344394",
+	"geneSymbol": "Lamc3",
+	"alleleAccessionId": "MGI:4364864",
+	"alleleName": "targeted mutation 1a, Wellcome Trust Sanger Institute",
+	"alleleSymbol": "Lamc3<tm1a(KOMP)Wtsi>",
+	"metadataGroup": "d307adf61223cf1c546130cb9f701bdd",
+	"metadataValues": [
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-06-25T09:40:00+01:00|Date and time of sacrifice = 2012-06-25T09:40:00+01:00|Date of measurement = 2012-06-25|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 562|Blood collection experimenter ID = 463|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-08-15T09:43:00+01:00|Date and time of sacrifice = 2012-08-15T09:43:00+01:00|Date of measurement = 2012-08-15|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-06-25T09:48:00+01:00|Date and time of sacrifice = 2012-06-25T09:48:00+01:00|Date of measurement = 2012-06-25|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-07-31T10:35:00+01:00|Date and time of sacrifice = 2012-07-31T10:35:00+01:00|Date of measurement = 2012-07-31|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-06-25T09:51:00+01:00|Date and time of sacrifice = 2012-06-25T09:51:00+01:00|Date of measurement = 2012-06-25|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-07-31T10:40:00+01:00|Date and time of sacrifice = 2012-07-31T10:40:00+01:00|Date of measurement = 2012-07-31|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-07-31T10:31:00+01:00|Date and time of sacrifice = 2012-07-31T10:31:00+01:00|Date of measurement = 2012-07-31|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-06-25T09:31:00+01:00|Date and time of sacrifice = 2012-06-25T09:31:00+01:00|Date of measurement = 2012-06-25|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 562|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-07-17T09:25:00+01:00|Date and time of sacrifice = 2012-07-17T09:25:00+01:00|Date of measurement = 2012-07-17|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-06-25T10:39:00+01:00|Date and time of sacrifice = 2012-06-25T10:39:00+01:00|Date of measurement = 2012-06-25|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-06-25T10:48:00+01:00|Date and time of sacrifice = 2012-06-25T10:48:00+01:00|Date of measurement = 2012-06-25|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-06-25T10:35:00+01:00|Date and time of sacrifice = 2012-06-25T10:35:00+01:00|Date of measurement = 2012-06-25|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 562|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-07-17T09:15:00+01:00|Date and time of sacrifice = 2012-07-17T09:15:00+01:00|Date of measurement = 2012-07-17|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22",
+		"Anesthesia used for blood collection = Injection narcosis with Ketamine (100mg/kg)/Xylazine (10mg/kg)|Anticoagulant = Lithium Heparin|Blood analysis experimenter ID = 652|Blood collection experimenter ID = 307|Blood collection tubes = Kabe Labortechnik Lithium heparin coated tubes|Date and time of blood collection = 2012-07-31T10:37:00+01:00|Date and time of sacrifice = 2012-07-31T10:37:00+01:00|Date of measurement = 2012-07-31|Equipment ID = Olympus AU400|Equipment manufacturer = Olympus Diagnostics|Equipment model = AU 400|ID of blood collection SOP = ESLIM_024_001|Method of blood collection = Retro-orbital puncture|Sample dilution = Neat plasma|Sample status = Fresh|Samples kept on ice between collection and analysis = No|Storage temperature from blood collection till measurement = 18-22"
+	],
+	"lifeStageAcc": "IMPCLS:0005",
+	"lifeStageName": "Early adult",
+	"dataType": "unidimensional",
+	"productionCentre": "WTSI",
+	"phenotypingCentre": "WTSI",
+	"projectName": "MGP",
+	"resourceName": "IMPC",
+	"resourceFullName": "IMPC",
+	"pipelineStableKey": 15,
+	"pipelineStableId": "MGP_001",
+	"pipelineName": "MGP Select Pipeline",
+	"procedureStableKey": 96,
+	"procedureStableId": "IMPC_CBC_001",
+	"procedureName": "Clinical Chemistry",
+	"procedureGroup": "IMPC_CBC",
+	"parameterStableKey": 2274,
+	"parameterStableId": "IMPC_CBC_011_001",
+	"parameterName": "Iron",
+	"status": "Successful",
+	"sex": null,
+	"phenotypeSex": ["male", "female"],
+	"significant": false,
+	"classificationTag": "With phenotype threshold value 1e-04 - no significant change",
+	"reportedPValue": 7.80678960971448e-4,
+	"reportedEffectSize": 0.43943965117828,
+	"significantPhenotype": null,
+	"intermediatePhenotypes": [
+		{ "id": "MP:0005636", "name": "abnormal mineral level" },
+		{ "id": "MP:0001770", "name": "abnormal iron homeostasis" },
+		{ "id": "MP:0000192", "name": "abnormal iron level" },
+		{ "id": "MP:0009642", "name": "abnormal circulating iron level" },
+		{ "id": "MP:0001764", "name": "abnormal blood homeostasis" },
+		{ "id": "MP:0004152", "name": "abnormal ion homeostasis" },
+		{ "id": "MP:0001765", "name": "abnormal circulating mineral level" },
+		{ "id": "MP:0005637", "name": "abnormal homeostasis" },
+		{ "id": "MP:0006357", "name": "abnormal mineral homeostasis" }
+	],
+	"topLevelPhenotypes": [
+		{ "id": "MP:0005376", "name": "homeostasis/metabolism phenotype" }
+	],
+	"potentialPhenotypes": [
+		{ "id": "MP:0004152", "name": "decreased circulating iron level" },
+		{ "id": "MP:0004151", "name": "abnormal circulating iron level" },
+		{ "id": "MP:0008810", "name": "increased circulating iron level" }
+	],
+	"id": "17a32770bca0b39aafafe4ddd621228f",
+	"summaryStatistics": {
+		"femaleControlCount": 2026,
+		"femaleControlMean": 0.126436018905466,
+		"femaleControlSd": 0.0161492934275664,
+		"maleControlCount": 2048,
+		"maleControlMean": 0.109283773241465,
+		"maleControlSd": 0.0135672129450257,
+		"femaleMutantCount": 7,
+		"femaleMutantMean": 0.145857142857143,
+		"femaleMutantSd": 0.016375068156892,
+		"maleMutantCount": 7,
+		"maleMutantMean": 0.103428571428571,
+		"maleMutantSd": 0.00534967733784456,
+		"bothMutantCount": null,
+		"bothMutantMean": null,
+		"bothMutantSd": null
+	},
+	"statisticalMethod": {
+		"name": "Linear Mixed Model framework, LME, including Weight",
+		"attributes": {
+			"femaleKoEffectPValue": 7.80678960971364e-4,
+			"femaleKoEffectStderrEstimate": 0.00613172825110546,
+			"femaleKoParameterEstimate": 0.0206807754345856,
+			"femalePercentageChange": 120.350232899946,
+			"genotypeEffectPValue": 7.80678960971448e-4,
+			"genotypeEffectStderrEstimate": 0.00613172825110546,
+			"group1Genotype": "control",
+			"group1ResidualsNormalityTest": 9.53172021487715e-6,
+			"group2Genotype": "experimental",
+			"group2ResidualsNormalityTest": 0.156987761349418,
+			"interactionEffectPValue": 9.99103576744709e-4,
+			"interactionSignificant": true,
+			"interceptEstimate": 0.114262140583591,
+			"interceptEstimateStderrEstimate": 0.00432035250644592,
+			"sexEffectPValue": 0.0,
+			"sexEffectParameterEstimate": -0.0186687737672265,
+			"sexEffectStderrEstimate": 0.00135246737718949,
+			"maleEffectSize": -0.504586474883906,
+			"femaleEffectSize": 1.45924365924235
+		}
+	},
+	"softWindowing": {
+		"bandwidth": 275,
+		"shape": 5.42604853784322,
+		"peaks": [15516, 15538, 15552, 15567],
+		"minObsRequired": 280,
+		"totalObsOrWeight": 855,
+		"threshold": 1.49011611938477e-7,
+		"numberOfDoe": 4,
+		"doeNote": "no note available"
+	}
+}
+```
+  
