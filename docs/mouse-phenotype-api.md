@@ -108,6 +108,7 @@ Response datatype: JSON Array<JSON Object>
 ```json
 [
   {
+    "statisticalResultId": "4c8064a66319bd31b365c587261ac70c",
     "mgiGeneAccessionId": "MGI:1929293",
     "pipelineStableId": "HRWL_001",
     "procedureStableId": "IMPC_ACS_003",
@@ -140,12 +141,7 @@ Response datatype: JSON Array<JSON Object>
 
 #### Changes
 
-- geneAccessionId -> mgiGeneAccessionId
-- pValue datatype: string -> double
-- lifeStageName datatype: array -> string
-- effectSize datatype: string -> double
-- topLevelPhenotype -> topLevelPhenotypes
-- phenotypingCenter -> phenotypingCentre
+- Add statisticalResultId
 
 ### Gene Statistical Results Service
 
