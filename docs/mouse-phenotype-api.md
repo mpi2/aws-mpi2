@@ -108,7 +108,7 @@ Response datatype: JSON Array<JSON Object>
 ```json
 [
   {
-    "statisticalResultId": "4c8064a66319bd31b365c587261ac70c",
+    "datasetId": "4c8064a66319bd31b365c587261ac70c",
     "mgiGeneAccessionId": "MGI:1929293",
     "pipelineStableId": "HRWL_001",
     "procedureStableId": "IMPC_ACS_003",
