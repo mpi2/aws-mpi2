@@ -766,9 +766,9 @@ Response datatype: JSON Object
 - alleleName **ADDED**
 - geneSymbol **ADDED**
 
-## Phenotype Services
+## Phenotype Services  
 
-### Phenotype Summary Service
+### Phenotype Summary Service
 
 Request pattern: /phenotype/<**phenotypeId**>/summary/
 
@@ -815,7 +815,7 @@ Response datatype: JSON Object
 
 ## Data Services
 
-### Statistical Results Metadata Service
+### Statistical Results Metadata Service
 
 Request pattern: /datasets/<**datasetId**>/
 
