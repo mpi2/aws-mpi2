@@ -768,6 +768,49 @@ Response datatype: JSON Object
 
 ## Phenotype Services
 
+### Phenotype Summary Service
+
+Request pattern: /phenotype/<**phenotypeId**>/summary/
+
+Request example: GET /phenotype/MP:0002792/summary/
+
+Response datatype: JSON Object
+
+#### Example
+
+```json
+{
+  "phenotypeId": "MP:0002792",
+  "phenotypeName": "abnormal retina vasculature morphology",
+  "phenotypeDefinition": "any anomaly of the structure or arrangement of blood vessels supplying the retina",
+  "phenotypeSynonyms": ["abnormal retinal vasculature morphology"],
+  "significantGenes": 216,
+  "notSignificantGenes": 7155,
+  "procedures": [
+    {
+      "pipelineStableId": "TCP_001",
+      "pipelineName": "TCP Pipeline",
+      "procedureStableId": "IMPC_EYE_002",
+      "procedureName": "Eye Morphology",
+      "procedureStableKey": 926,
+      "description": "To detect abnormalities in eye morphology."
+    },
+    {
+      "pipelineStableId": "JAX_001",
+      "pipelineName": "JAX Pipeline",
+      "procedureStableId": "IMPC_EYE_001",
+      "procedureName": "Eye Morphology",
+      "procedureStableKey": 563,
+      "description": "To detect abnormalities in eye morphology."
+    }
+  ],
+  "topLevelPhenotypes": [
+    { "id": "MP:0005391", "name": "vision/eye phenotype" },
+    { "id": "MP:0005385", "name": "cardiovascular system phenotype" }
+  ]
+}
+```
+
 ## Image Services
 
 ## Data Services
